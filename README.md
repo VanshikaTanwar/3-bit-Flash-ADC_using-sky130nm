@@ -77,10 +77,9 @@ resistors are connected in series,
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/156239808-f3ac8304-9bab-47c9-b006-ba6aec04f277.jpg"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/194720783-0887fe26-775b-459b-b6f9-2d52bf0ca5ec.png"></br>
    fig.4: 3-bit_Flash_ADC REFERENCE CIRCUIT 
 </p>
-
 
 
 Here, the comparators used is analog in nature which is made up of opamp and is used to either compare two analog voltages or input voltage with reference voltage (say Vref).
