@@ -305,7 +305,7 @@ Analog Block +Digital Block =Mixed signal circuit
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/194718348-7d61dcb6-bde1-47b7-b22f-04aa6fdec273.png"></br>
-  Fig.14: Mixed Signal circuit
+  Fig.14: Mixed Signal circuit of 3-bit flash_adc_130
 </p>
 
 ## Simulations:
@@ -321,13 +321,13 @@ Analog Block +Digital Block =Mixed signal circuit
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/194718675-f8426cfe-ff56-40b0-b795-985e905cbbec.png"></br>
-  Fig.16.1:  comparator waveform(1) 
+  Fig.16.1: Input and output waveform of comparator(1) 
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/194718689-4b23ca69-bff4-415e-9feb-e3e88675ea3b.png"></br>
-  Fig.16.2: comparator waveform(2)
+  Fig.16.2: Combained Input and output waveform of comparator(2)
 </p>
 
 
@@ -336,19 +336,19 @@ Analog Block +Digital Block =Mixed signal circuit
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/194718732-57388f1d-805e-4153-8a92-66d5a816d7c8.png"></br>
-  Fig.17.1: 3_bit_flash_adc_waveform_1
+  Fig.17.1: 3_bit_flash_adc Input and reference voltage waveform_1
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/194718757-ef126e5d-672f-47c8-9e6a-0dba91ed50e8.png"></br>
-  Fig.17.2: 3_bit_flash_adc_waveform_2
+  Fig.17.2: 3_bit_flash_adc output Combained Input and output waveform_2
 </p>
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/194718779-916286a2-ade3-4ef8-b32b-5720620cd085.png"></br>
-  Fig.17.3: 3_bit_flash_adc_waveform_3
+  Fig.17.3: 3_bit_flash_adc waveform_3
 </p>
 
 # Netlist of the Circuit:
