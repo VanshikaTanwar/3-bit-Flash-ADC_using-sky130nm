@@ -258,7 +258,7 @@ If V(non-inv)<V(ref) ----->Vout=0
  
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/156943275-70b22acc-24b5-4b09-9568-c3ef99240fdf.jpg"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/194718232-09b68c9b-ba99-4e5f-ab5e-7328c0cf156a.png"></br>
   Fig.10: Comparator Circuit using OPAMP
 </p>
 
@@ -285,7 +285,7 @@ As for 3-bit flash ADC, a Total of 8 comparators are connected with each other u
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/156939883-0c6dee17-c153-4d3a-8bf8-6d26d1be4892.jpg"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/194718286-a0010cfc-b523-4a4c-8053-3ab8700240ed.png"></br>
   Fig.12: Analog Block circuit
 </p>
 
@@ -295,7 +295,7 @@ The working of priority encoder block is explained above
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/156939897-f820d72a-17f5-41dd-8d69-3815874efd2b.jpg"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/194718306-0160c6a9-2d42-4e88-a26f-6c04bbfc3c6e.png"></br>
   Fig.13: Digital Block circuit
 </p>
 
@@ -305,7 +305,7 @@ Analog Block +Digital Block =Mixed signal circuit
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/194717876-c2de35ae-a134-45ff-829f-4560e88be5ee.png"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/194718348-7d61dcb6-bde1-47b7-b22f-04aa6fdec273.png"></br>
   Fig.14: Mixed Signal circuit
 </p>
 
