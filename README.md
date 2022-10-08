@@ -285,7 +285,7 @@ As for 3-bit flash ADC, a Total of 8 comparators are connected with each other u
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/194718286-a0010cfc-b523-4a4c-8053-3ab8700240ed.png"></br>
-  Fig.12: Analog Block circuit
+  Fig.12: Analog Block circuit of Opamp as Comparator Resistor ladder network
 </p>
 
 #### Digital Block:
@@ -295,7 +295,7 @@ The working of priority encoder block is explained above
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/194718306-0160c6a9-2d42-4e88-a26f-6c04bbfc3c6e.png"></br>
-  Fig.13: Digital Block circuit
+  Fig.13: Digital Block of Priority Encoder circuit
 </p>
 
 #### Mixed Signal:
