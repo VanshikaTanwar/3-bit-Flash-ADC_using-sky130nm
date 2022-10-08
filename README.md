@@ -361,7 +361,7 @@ Analog Block +Digital Block =Mixed signal circuit
 [3]. Refer to the netlist of the circuit here: <a href='Netlist_3-bit_Flash_ADC'>Netlist_3-bit_Flash_ADC</a>
 
 # References:
-[1]. https://research.ijcaonline.org/volume61/number11/pxc3884802.pdf 
+[1]. 1.	https://research.ijcaonline.org/volume61/number11/pxc3884802.pdf 
 
 [2]. https://www.researchgate.net/publication/329326679_A_3-Bit_10-MSps_Low_Power_CMOS_Flash_ADC 
 
