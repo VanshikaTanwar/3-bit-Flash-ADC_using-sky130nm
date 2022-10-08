@@ -1,0 +1,42 @@
+* C:\Users\vansh\eSim-Workspace\adc_130\adc_130.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 10/8/2022 12:15:06 PM
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+X1  Vcc Net-_X1-Pad2_ Net-_SC2-Pad1_ Vinp Net-_U4-Pad2_ GND avsd_opamp		
+X6  Vcc Net-_X1-Pad2_ Net-_SC3-Pad1_ Vinp Net-_U4-Pad3_ ? avsd_opamp		
+X2  Vcc Net-_X1-Pad2_ Net-_SC4-Pad1_ Vinp Net-_U4-Pad4_ GND avsd_opamp		
+X7  Vcc Net-_X1-Pad2_ Net-_SC5-Pad1_ Vinp Net-_U4-Pad5_ GND avsd_opamp		
+X5  Vcc Net-_X1-Pad2_ Net-_SC1-Pad1_ Vinp Net-_U4-Pad1_ GND avsd_opamp		
+X3  Vcc Net-_X1-Pad2_ Net-_SC6-Pad1_ Vinp Net-_U4-Pad6_ GND avsd_opamp		
+X8  Vcc Net-_X1-Pad2_ Net-_SC7-Pad1_ Vinp Net-_U4-Pad7_ GND avsd_opamp		
+X4  Vcc Net-_X1-Pad2_ GND Vinp ? GND avsd_opamp		
+U4  Net-_U4-Pad1_ Net-_U4-Pad2_ Net-_U4-Pad3_ Net-_U4-Pad4_ Net-_U4-Pad5_ Net-_U4-Pad6_ Net-_U4-Pad7_ ? Net-_U3-Pad1_ Net-_U3-Pad2_ Net-_U3-Pad3_ Net-_U3-Pad4_ Net-_U3-Pad5_ Net-_U3-Pad6_ Net-_U3-Pad7_ Net-_U3-Pad8_ adc_bridge_8		
+U3  Net-_U3-Pad1_ Net-_U3-Pad2_ Net-_U3-Pad3_ Net-_U3-Pad4_ Net-_U3-Pad5_ Net-_U3-Pad6_ Net-_U3-Pad7_ Net-_U3-Pad8_ Net-_U3-Pad9_ Net-_U3-Pad10_ Net-_U3-Pad11_ priority_encode_vanshika		
+U5  Net-_U3-Pad9_ Net-_U3-Pad10_ Net-_U3-Pad11_ Net-_SC9-Pad1_ Net-_SC10-Pad1_ Net-_SC11-Pad1_ dac_bridge_3		
+v3  Vcc GND DC		
+v4  GND Net-_X1-Pad2_ DC		
+SC1  Net-_SC1-Pad1_ Vref Net-_SC1-Pad3_ sky130_fd_pr__res_generic_pd		
+SC3  Net-_SC3-Pad1_ Net-_SC2-Pad1_ Net-_SC1-Pad3_ sky130_fd_pr__res_generic_pd		
+SC4  Net-_SC4-Pad1_ Net-_SC3-Pad1_ Net-_SC1-Pad3_ sky130_fd_pr__res_generic_pd		
+SC5  Net-_SC5-Pad1_ Net-_SC4-Pad1_ Net-_SC1-Pad3_ sky130_fd_pr__res_generic_pd		
+SC6  Net-_SC6-Pad1_ Net-_SC5-Pad1_ Net-_SC1-Pad3_ sky130_fd_pr__res_generic_pd		
+SC7  Net-_SC7-Pad1_ Net-_SC6-Pad1_ Net-_SC1-Pad3_ sky130_fd_pr__res_generic_pd		
+SC8  GND Net-_SC7-Pad1_ Net-_SC1-Pad3_ sky130_fd_pr__res_generic_pd		
+SC2  Net-_SC2-Pad1_ Net-_SC1-Pad1_ Net-_SC1-Pad3_ sky130_fd_pr__res_generic_pd		
+SC9  Net-_SC9-Pad1_ out2 Vcc sky130_fd_pr__res_generic_pd		
+SC10  Net-_SC10-Pad1_ out1 Vcc sky130_fd_pr__res_generic_pd		
+SC11  Net-_SC11-Pad1_ out0 Vcc sky130_fd_pr__res_generic_pd		
+U6  out2 plot_v1		
+U7  out1 plot_v1		
+U8  out0 plot_v1		
+v1  Vref GND DC		
+v2  Vinp GND pulse		
+U1  Vref plot_v1		
+U2  Vinp plot_v1		
+scmode1  SKY130mode		
+
+.end

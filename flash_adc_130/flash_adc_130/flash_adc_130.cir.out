@@ -1,0 +1,62 @@
+* c:\users\vansh\esim-workspace\adc_130\adc_130.cir
+
+.include avsd_opamp.sub
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pd2nw_11v0.model.spice"
+.lib "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130.lib.spice" tt
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pw2nd_11v0.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__inductors.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__linear.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__r+c.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__pnp.model.spice"
+x1 vcc net-_x1-pad2_ net-_sc2-pad1_ vinp net-_u4-pad2_ gnd avsd_opamp
+x6 vcc net-_x1-pad2_ net-_sc3-pad1_ vinp net-_u4-pad3_ ? avsd_opamp
+x2 vcc net-_x1-pad2_ net-_sc4-pad1_ vinp net-_u4-pad4_ gnd avsd_opamp
+x7 vcc net-_x1-pad2_ net-_sc5-pad1_ vinp net-_u4-pad5_ gnd avsd_opamp
+x5 vcc net-_x1-pad2_ net-_sc1-pad1_ vinp net-_u4-pad1_ gnd avsd_opamp
+x3 vcc net-_x1-pad2_ net-_sc6-pad1_ vinp net-_u4-pad6_ gnd avsd_opamp
+x8 vcc net-_x1-pad2_ net-_sc7-pad1_ vinp net-_u4-pad7_ gnd avsd_opamp
+x4 vcc net-_x1-pad2_ gnd vinp ? gnd avsd_opamp
+* u4  net-_u4-pad1_ net-_u4-pad2_ net-_u4-pad3_ net-_u4-pad4_ net-_u4-pad5_ net-_u4-pad6_ net-_u4-pad7_ ? net-_u3-pad1_ net-_u3-pad2_ net-_u3-pad3_ net-_u3-pad4_ net-_u3-pad5_ net-_u3-pad6_ net-_u3-pad7_ net-_u3-pad8_ adc_bridge_8
+* u3  net-_u3-pad1_ net-_u3-pad2_ net-_u3-pad3_ net-_u3-pad4_ net-_u3-pad5_ net-_u3-pad6_ net-_u3-pad7_ net-_u3-pad8_ net-_u3-pad9_ net-_u3-pad10_ net-_u3-pad11_ priority_encode_vanshika
+* u5  net-_u3-pad9_ net-_u3-pad10_ net-_u3-pad11_ net-_sc9-pad1_ net-_sc10-pad1_ net-_sc11-pad1_ dac_bridge_3
+v3 vcc gnd  dc 1.8
+v4 gnd net-_x1-pad2_  dc 1.8
+xsc1 net-_sc1-pad1_ vref net-_sc1-pad3_ sky130_fd_pr__res_generic_pd 
+xsc3 net-_sc3-pad1_ net-_sc2-pad1_ net-_sc1-pad3_ sky130_fd_pr__res_generic_pd 
+xsc4 net-_sc4-pad1_ net-_sc3-pad1_ net-_sc1-pad3_ sky130_fd_pr__res_generic_pd 
+xsc5 net-_sc5-pad1_ net-_sc4-pad1_ net-_sc1-pad3_ sky130_fd_pr__res_generic_pd 
+xsc6 net-_sc6-pad1_ net-_sc5-pad1_ net-_sc1-pad3_ sky130_fd_pr__res_generic_pd 
+xsc7 net-_sc7-pad1_ net-_sc6-pad1_ net-_sc1-pad3_ sky130_fd_pr__res_generic_pd 
+xsc8 gnd net-_sc7-pad1_ net-_sc1-pad3_ sky130_fd_pr__res_generic_pd 
+xsc2 net-_sc2-pad1_ net-_sc1-pad1_ net-_sc1-pad3_ sky130_fd_pr__res_generic_pd 
+xsc9 net-_sc9-pad1_ out2 vcc sky130_fd_pr__res_generic_pd 
+xsc10 net-_sc10-pad1_ out1 vcc sky130_fd_pr__res_generic_pd 
+xsc11 net-_sc11-pad1_ out0 vcc sky130_fd_pr__res_generic_pd 
+* u6  out2 plot_v1
+* u7  out1 plot_v1
+* u8  out0 plot_v1
+v1 vref gnd  dc 0.9
+v2  vinp gnd pulse(0 1.8 0.1m 200m 200m 2m 402m)
+* u1  vref plot_v1
+* u2  vinp plot_v1
+* s c m o d e
+a1 [net-_u4-pad1_ net-_u4-pad2_ net-_u4-pad3_ net-_u4-pad4_ net-_u4-pad5_ net-_u4-pad6_ net-_u4-pad7_ ? ] [net-_u3-pad1_ net-_u3-pad2_ net-_u3-pad3_ net-_u3-pad4_ net-_u3-pad5_ net-_u3-pad6_ net-_u3-pad7_ net-_u3-pad8_ ] u4
+a2 [net-_u3-pad1_ net-_u3-pad2_ net-_u3-pad3_ net-_u3-pad4_ net-_u3-pad5_ net-_u3-pad6_ net-_u3-pad7_ net-_u3-pad8_ ] [net-_u3-pad9_ net-_u3-pad10_ net-_u3-pad11_ ] u3
+a3 [net-_u3-pad9_ net-_u3-pad10_ net-_u3-pad11_ ] [net-_sc9-pad1_ net-_sc10-pad1_ net-_sc11-pad1_ ] u5
+* Schematic Name:                             adc_bridge_8, NgSpice Name: adc_bridge
+.model u4 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             priority_encode_vanshika, NgSpice Name: priority_encode_vanshika
+.model u3 priority_encode_vanshika(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             dac_bridge_3, NgSpice Name: dac_bridge
+.model u5 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+.tran 1e-03 3e-00 0e-03
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(out2)+5 v(out1)+10 v(out0)+15 
+plot v(vref) v(vinp)
+.endc
+.end
