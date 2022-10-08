@@ -321,46 +321,35 @@ Analog Block +Digital Block =Mixed signal circuit
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/156942327-c64a4311-7682-4e3d-90f5-5bde96852162.jpg"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/194718675-f8426cfe-ff56-40b0-b795-985e905cbbec.png"></br>
   Fig.16.1:  comparator waveform(1) 
 </p>
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/156942366-20883786-2e53-4563-9726-5dc3e7677f62.jpg"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/194718689-4b23ca69-bff4-415e-9feb-e3e88675ea3b.png"></br>
   Fig.16.2: comparator waveform(2)
 </p>
 
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/156942674-3a8115e7-1e29-4190-a0dd-a50d8a3d2ff8.jpg"></br>
-  Fig.16.3: comparator waveform(3)
-</p>
 
 ### 3-bit_Flash_ADC Waveform:
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/156941802-06fe270d-2014-45a2-a2ff-b7e37d484d34.jpg"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/194718732-57388f1d-805e-4153-8a92-66d5a816d7c8.png"></br>
   Fig.17.1: 3_bit_flash_adc_waveform_1
 </p>
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/156941822-f006ae9b-c090-4442-930d-5f940b8a78b0.jpg"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/194718757-ef126e5d-672f-47c8-9e6a-0dba91ed50e8.png"></br>
   Fig.17.2: 3_bit_flash_adc_waveform_2
 </p>
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/157059062-c6e57483-dce2-4269-b3c7-975af8a5c4be.png"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/194718779-916286a2-ade3-4ef8-b32b-5720620cd085.png"></br>
   Fig.17.3: 3_bit_flash_adc_waveform_3
-</p>
-
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/157059424-d54d4449-13a7-49df-9115-16a4e78fb4e8.png"></br>
-  Fig.17.4: 3_bit_flash_adc_waveform_4
 </p>
 
 # Netlist of the Circuit:
