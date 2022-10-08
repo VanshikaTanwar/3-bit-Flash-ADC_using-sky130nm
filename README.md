@@ -26,7 +26,7 @@ This repository presents the design of 3-bit_Flash_ADC implemented using eSim op
 	- [3-bit_Flash_ADC Waveform](#3-bit-Flash-ADCWaveform)
 - [Netlist of the Circuit](#Netlist-of-the-Circuit)
 	- [Steps to run generate NgVeri Model](#steps-to-run-generate-ngveri-model)
-	-[Steps to run this project](#steps-to-run-this-project)
+	- [Steps to run this project](#steps-to-run-this-project)
 - [References](#references)
 - [Acknowledgement](#acknowledgement)
 - [Author](#author)
