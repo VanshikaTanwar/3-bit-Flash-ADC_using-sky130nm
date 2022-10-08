@@ -275,7 +275,7 @@ Vout=R2 x Vin/(R1+R2)
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/157055091-f44bfe1d-0c5e-4217-80fd-c251b0cd15ab.png"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/194718472-244835d1-c2bf-43fd-b916-3fb1d31d59a5.png"></br>
   Fig.11: Resistor Voltage Divider circuit
 </p>
 
