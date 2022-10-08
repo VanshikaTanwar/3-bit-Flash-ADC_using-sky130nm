@@ -25,6 +25,8 @@ This repository presents the design of 3-bit_Flash_ADC implemented using eSim op
 	- [Comparator Waveform](#Comparator-Waveform)
 	- [3-bit_Flash_ADC Waveform](#3-bit-Flash-ADCWaveform)
 - [Netlist of the Circuit](#Netlist-of-the-Circuit)
+	- [Steps to run generate NgVeri Model](#steps-to-run-generate-ngveri-model)
+	-[Steps to run this project](#steps-to-run-this-project)
 - [References](#references)
 - [Acknowledgement](#acknowledgement)
 - [Author](#author)
@@ -377,6 +379,29 @@ Analog Block +Digital Block =Mixed signal circuit
 [3]. https://www.researchgate.net/publication/318286256_Design_Implementation_of_3-Bit_High_Speed_Flash_ADC_for_Wireless_LAN_Applications
 
 [4]. https://microcontrollerslab.com/flash-adc-working-3-bit-example-advantages-applications/
+
+## Steps to run generate NgVeri Model
+1. Open eSim
+2. Run NgVeri-Makerchip 
+3. Add top level verilog file in Makerchip Tab
+4. Click on NgVeri tab
+5. Add dependency files
+6. Click on Run Verilog to NgSpice Converter
+7. Debug if any errors
+8. Model created successfully
+## Steps to run this project
+1. Open a new terminal
+2. Clone this project using the following command:</br>
+```git clone https://github.com/Eyantra698Sumanto/XOR-XNOR-Gate.git ```</br>
+3. Change directory:</br>
+```cd eSim_project_files/xor_xnor```</br>
+4. Run ngspice:</br>
+```ngspice xor_xnor.cir.out```</br>
+5. To run the project in eSim:
+
+  - Run eSim</br>
+  - Load the project</br>
+  - Open eeSchema</br>
 
 # Acknowledgements:
 
