@@ -1,14 +1,14 @@
-* c:\users\vansh\downloads\priority_encoder\priority_encoder.cir
+* c:\users\vansh\esim-workspace\priority_encoder\priority_encoder.cir
 
-* u13  i0 i1 i2 i3 i4 i5 i6 i7 net-_u13-pad9_ net-_u13-pad10_ net-_u13-pad11_ net-_u13-pad12_ net-_u13-pad13_ net-_u13-pad14_ net-_u13-pad15_ net-_u13-pad16_ adc_bridge_8
-v1  i0 i15 pulse(0 5 0.1m 0.1m 0.1m 1 2)
-v2  i1 i15 pulse(0 10 0.1m 0.1m 0.1m 4 8)
-v3  i2 i15 pulse(0 5 0.1m 0.1m 0.1m 20 40)
-v4  i3 i15 pulse(0 10 0.1m 0.1m 0.1m 3 4)
-v5  i4 i15 pulse(0 5 0.1m 0.1m 0.1m 50 65)
-v6  i5 i15 pulse(0 10 0.1m 0.1m 0.1m 10 20)
-v7  i6 i15 pulse(0 5 0.1m 0.1m 0.1m 5 10)
-v8  i7 i15 pulse(0 10 0.1m 0.1m 0.1m 1 4)
+* u13  i0 i1 i2 i3 i4 i5 i6 i7 net-_u12-pad1_ net-_u12-pad2_ net-_u12-pad3_ net-_u12-pad4_ net-_u12-pad5_ net-_u12-pad6_ net-_u12-pad7_ net-_u12-pad8_ adc_bridge_8
+v1  i0 gnd pulse(0 5 0.1m 0.1m 0.1m 1 2)
+v2  i1 gnd pulse(0 10 0.1m 0.1m 0.1m 4 8)
+v3  i2 gnd pulse(0 5 0.1m 0.1m 0.1m 20 40)
+v4  i3 gnd pulse(0 10 0.1m 0.1m 0.1m 3 4)
+v5  i4 gnd pulse(0 5 0.1m 0.1m 0.1m 50 65)
+v6  i5 gnd pulse(0 10 0.1m 0.1m 0.1m 10 20)
+v7  i6 gnd pulse(0 5 0.1m 0.1m 0.1m 5 10)
+v8  i7 gnd pulse(0 10 0.1m 0.1m 0.1m 1 4)
 * u1  i0 plot_v1
 * u2  i1 plot_v1
 * u3  i2 plot_v1
@@ -23,39 +23,17 @@ v8  i7 i15 pulse(0 10 0.1m 0.1m 0.1m 1 4)
 r3  net-_r3-pad1_ o2 1k
 r2  net-_r2-pad1_ o1 1k
 r1  net-_r1-pad1_ o0 1k
-* u21  net-_u13-pad9_ net-_u13-pad10_ net-_u13-pad11_ net-_u13-pad12_ net-_u13-pad13_ net-_u13-pad14_ net-_u13-pad15_ net-_u13-pad16_ net-_u21-pad9_ net-_u21-pad10_ net-_u21-pad11_ net-_u21-pad12_ net-_u21-pad13_ net-_u21-pad14_ net-_u21-pad15_ net-_u21-pad16_ net-_u21-pad17_ net-_u21-pad18_ net-_u21-pad19_ net-_u21-pad20_ bala_priority_encoder
-* u22  net-_u21-pad17_ net-_u21-pad18_ net-_u21-pad19_ net-_u21-pad20_ net-_r1-pad1_ net-_r2-pad1_ net-_r3-pad1_ net-_r4-pad1_ dac_bridge_4
-r4  net-_r4-pad1_ o3 1k
-* u12  o3 plot_v1
-v9  i8 i15 pulse(0 5 0.1m 0.1m 0.1m 1 2)
-v10  i9 i15 pulse(0 10 0.1m 0.1m 0.1m 4 8)
-v11  i10 i15 pulse(0 5 0.1m 0.1m 0.1m 20 40)
-v12  i11 i15 pulse(0 10 0.1m 0.1m 0.1m 3 4)
-v13  i12 i15 pulse(0 5 0.1m 0.1m 0.1m 50 65)
-v14  i13 i15 pulse(0 10 0.1m 0.1m 0.1m 10 20)
-v15  i14 i15 pulse(0 5 0.1m 0.1m 0.1m 5 10)
-v16  net-_u23-pad7_ i15 pulse(0 10 0.1m 0.1m 0.1m 1 4)
-* ua1  i8 plot_v1
-* u14  i9 plot_v1
-* u15  i10 plot_v1
-* u16  i11 plot_v1
-* u17  i12 plot_v1
-* u18  i13 plot_v1
-* u19  i14 plot_v1
-* u20  i15 plot_v1
-* u23  i8 i9 i10 i11 i12 i13 net-_u23-pad7_ i14 net-_u21-pad9_ net-_u21-pad10_ net-_u21-pad11_ net-_u21-pad12_ net-_u21-pad13_ net-_u21-pad14_ net-_u21-pad15_ net-_u21-pad16_ adc_bridge_8
-a1 [i0 i1 i2 i3 i4 i5 i6 i7 ] [net-_u13-pad9_ net-_u13-pad10_ net-_u13-pad11_ net-_u13-pad12_ net-_u13-pad13_ net-_u13-pad14_ net-_u13-pad15_ net-_u13-pad16_ ] u13
-a2 [net-_u13-pad9_ net-_u13-pad10_ net-_u13-pad11_ net-_u13-pad12_ net-_u13-pad13_ net-_u13-pad14_ net-_u13-pad15_ net-_u13-pad16_ net-_u21-pad9_ net-_u21-pad10_ net-_u21-pad11_ net-_u21-pad12_ net-_u21-pad13_ net-_u21-pad14_ net-_u21-pad15_ net-_u21-pad16_ ] [net-_u21-pad17_ net-_u21-pad18_ net-_u21-pad19_ net-_u21-pad20_ ] u21
-a3 [net-_u21-pad17_ net-_u21-pad18_ net-_u21-pad19_ net-_u21-pad20_ ] [net-_r1-pad1_ net-_r2-pad1_ net-_r3-pad1_ net-_r4-pad1_ ] u22
-a4 [i8 i9 i10 i11 i12 i13 net-_u23-pad7_ i14 ] [net-_u21-pad9_ net-_u21-pad10_ net-_u21-pad11_ net-_u21-pad12_ net-_u21-pad13_ net-_u21-pad14_ net-_u21-pad15_ net-_u21-pad16_ ] u23
+* u14  net-_u12-pad9_ net-_u12-pad10_ net-_u12-pad11_ net-_r1-pad1_ net-_r2-pad1_ net-_r3-pad1_ dac_bridge_3
+* u12  net-_u12-pad1_ net-_u12-pad2_ net-_u12-pad3_ net-_u12-pad4_ net-_u12-pad5_ net-_u12-pad6_ net-_u12-pad7_ net-_u12-pad8_ net-_u12-pad9_ net-_u12-pad10_ net-_u12-pad11_ priority_encode_vanshika
+a1 [i0 i1 i2 i3 i4 i5 i6 i7 ] [net-_u12-pad1_ net-_u12-pad2_ net-_u12-pad3_ net-_u12-pad4_ net-_u12-pad5_ net-_u12-pad6_ net-_u12-pad7_ net-_u12-pad8_ ] u13
+a2 [net-_u12-pad9_ net-_u12-pad10_ net-_u12-pad11_ ] [net-_r1-pad1_ net-_r2-pad1_ net-_r3-pad1_ ] u14
+a3 [net-_u12-pad1_ net-_u12-pad2_ net-_u12-pad3_ net-_u12-pad4_ net-_u12-pad5_ net-_u12-pad6_ net-_u12-pad7_ net-_u12-pad8_ ] [net-_u12-pad9_ net-_u12-pad10_ net-_u12-pad11_ ] u12
 * Schematic Name:                             adc_bridge_8, NgSpice Name: adc_bridge
 .model u13 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
-* Schematic Name:                             bala_priority_encoder, NgSpice Name: bala_priority_encoder
-.model u21 bala_priority_encoder(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
-* Schematic Name:                             dac_bridge_4, NgSpice Name: dac_bridge
-.model u22 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
-* Schematic Name:                             adc_bridge_8, NgSpice Name: adc_bridge
-.model u23 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_3, NgSpice Name: dac_bridge
+.model u14 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             priority_encode_vanshika, NgSpice Name: priority_encode_vanshika
+.model u12 priority_encode_vanshika(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
 .tran 20e-00 200e-00 0e-00
 
 * Control Statements 
@@ -63,25 +41,7 @@ a4 [i8 i9 i10 i11 i12 i13 net-_u23-pad7_ i14 ] [net-_u21-pad9_ net-_u21-pad10_ n
 run
 print allv > plot_data_v.txt
 print alli > plot_data_i.txt
-plot v(i0)
-plot v(i1)
-plot v(i2)
-plot v(i3)
-plot v(i4)
-plot v(i7)
-plot v(i6)
-plot v(i5)
-plot v(o0)
-plot v(o1)
-plot v(o2)
-plot v(o3)
-plot v(i8)
-plot v(i9)
-plot v(i10)
-plot v(i11)
-plot v(i12)
-plot v(i13)
-plot v(i14)
-plot v(i15)
+plot v(i0)+5 v(i1)+10 v(i2)+15 v(i3)+20 v(i4)+25 v(i5)+30 v(i6)+35 v(i7)+40
+plot v(o0)+5 v(o1)+10 v(o2)+15
 .endc
 .end
