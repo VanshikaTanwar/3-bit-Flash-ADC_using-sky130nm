@@ -305,7 +305,7 @@ Analog Block +Digital Block =Mixed signal circuit
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/156939856-df6aad49-93ce-4303-8432-f4ea84bdf8de.jpg"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/194717876-c2de35ae-a134-45ff-829f-4560e88be5ee.png"></br>
   Fig.14: Mixed Signal circuit
 </p>
 
